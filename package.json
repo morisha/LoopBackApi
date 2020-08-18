@@ -12,17 +12,17 @@
   },
   "dependencies": {
     "compression": "^1.7.4",
-    "core-js": "^3.2.1",
+    "core-js": "^3.6.5",
     "cors": "^2.8.5",
-    "helmet": "^3.20.0",
-    "loopback": "^3.26.0",
+    "helmet": "^3.23.3",
+    "loopback": "^3.27.0",
     "loopback-boot": "^3.3.1",
-    "loopback-component-explorer": "^6.4.0",
+    "loopback-component-explorer": "^6.5.1",
     "serve-favicon": "^2.5.0",
-    "strong-error-handler": "^3.2.0"
+    "strong-error-handler": "^3.5.0"
   },
   "devDependencies": {
-    "eslint": "^6.1.0",
+    "eslint": "^6.8.0",
     "eslint-config-loopback": "^13.1.0"
   },
   "repository": {
