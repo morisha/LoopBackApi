@@ -8,11 +8,12 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
+    "test": "echo \"Warning: no tests yet\" && exit 0",
     "posttest": "npm run lint && npm audit"
   },
   "dependencies": {
     "compression": "^1.7.4",
-    "core-js": "^3.6.5",
+    "core-js": "^3.44.0",
     "cors": "^2.8.5",
     "helmet": "^4.0.0",
     "loopback": "^3.27.0",
