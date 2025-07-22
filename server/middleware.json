@@ -11,21 +11,19 @@
         "maxAge": 86400
       }
     },
-    "helmet#xssFilter": {},
-    "helmet#frameguard": {
-      "params": { "action": "deny" }
-    },
-    "helmet#hsts": {
+    "helmet": {
       "params": {
-        "maxAge": 0,
-        "includeSubdomains": true
+        "xssFilter": true,
+        "frameguard": { "action": "deny" },
+        "hsts": {
+          "maxAge": 0,
+          "includeSubDomains": true
+        },
+        "hidePoweredBy": true,
+        "ieNoOpen": true,
+        "noSniff": true,
+        "noCache": false
       }
-    },
-    "helmet#hidePoweredBy": {},
-    "helmet#ieNoOpen": {},
-    "helmet#noSniff": {},
-    "helmet#noCache": {
-      "enabled": false
     }
   },
   "session": {},
